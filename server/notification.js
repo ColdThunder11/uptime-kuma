@@ -27,6 +27,7 @@ const SerwerSMS = require("./notification-providers/serwersms");
 const Stackfield = require("./notification-providers/stackfield");
 const WeCom = require("./notification-providers/wecom");
 const GoogleChat = require("./notification-providers/google-chat");
+const Onebot = require("./notification-providers/onebot");
 
 class Notification {
 
@@ -65,7 +66,8 @@ class Notification {
             new SerwerSMS(),
             new Stackfield(),
             new WeCom(),
-            new GoogleChat()
+            new GoogleChat(),
+            new Onebot()
         ];
 
         for (let item of list) {

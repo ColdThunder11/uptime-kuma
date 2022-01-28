@@ -362,4 +362,10 @@ export default {
     smtpDkimHashAlgo: "Hash Algorithm (可选)",
     smtpDkimheaderFieldNames: "Header Keys to sign (可选)",
     smtpDkimskipFields: "Header Keys not to sign (可选)",
+    onebotHttpAddress: "OneBot HTTP 地址",
+    onebotMessageType: "OneBot 消息类型",
+    onebotGroupMessage: "群聊",
+    onebotPrivateMessage: "私聊",
+    onebotUserOrGroupId: "群组/用户ID",
+    onebotSafetyTips: "出于安全原因，请务必设置AccessToken",
 };
